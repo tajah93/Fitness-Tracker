@@ -34,4 +34,25 @@ module.exports = function(app){
             res.json(err)
         })
     });
+
+    app.get("api/workouts/range", function (req, res) {
+        db.Workout.find({})
+        .then(data => {
+            res.json(data)
+        })
+        .catch(err => {
+            res.json(err)
+        })
+    });
+
+    app.post("api/workouts/range", function (req, res) {
+        db.Workout.create({})
+        .then(data => {
+            res.json(data)
+        })
+        .catch(err => {
+            res.json(err)
+        })
+    });
+
 }
