@@ -1,8 +1,8 @@
-const db = require("../models/fittracker");
+const db = require("../models");
 
 module.exports = function(app){ 
     app.get("/api/workouts",function(req,res){  
-        db.find()
+        db.fittracker.find()
         .then(data =>{  
             res.json(data)
         })
@@ -12,7 +12,7 @@ module.exports = function(app){
     });
 
     app.post("/api/workouts",function (req,res){    
-        db.create({})
+        db.fittracker.create({})
         .then(data => {
             res.json(data)
         })
@@ -22,7 +22,7 @@ module.exports = function(app){
     });
 
     app.put("/api/workouts/:id",({body,params},res)=>{   
-        db.findByIdAndUpdate(  
+        db.fittracker.findByIdAndUpdate(  
          params.id,
          {$push:{exercises:body} },
          {new: true,runValidators:true }
