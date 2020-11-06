@@ -14,13 +14,13 @@ This app creates and tracks workouts.The user is able to create a new workout or
 
 ## Built With ##
 
-* MongoDB
-* Node.js
-* Express
-* CSS
-* JavaScript
-* HTML
-* Bootstrap
+* [MongoDB](https://www.mongodb.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
+* [CSS](https://www.w3schools.com/css/css_intro.asp)
+* [JavaScript](https://www.javascript.com/)
+* [HTML](https://www.w3schools.com/html/html_intro.asp)
+* [Bootstrap](https://getbootstrap.com/)
 
 **Live Link**
 
