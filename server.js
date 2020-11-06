@@ -10,6 +10,8 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
+// app.use('/api', require('./routes/api-routes.js'));
+// app.use('/api', require('./routes/html-routes.js'));
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
 
