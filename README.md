@@ -22,7 +22,7 @@ This app creates and tracks workouts. The user can create a new workout or look 
 * [HTML](https://www.w3schools.com/html/html_intro.asp)
 * [Bootstrap](https://getbootstrap.com/)
 
-**[Live Link]( https://infinite-chamber-31985.herokuapp.com/)**
+## [Live Link]( https://infinite-chamber-31985.herokuapp.com/) ##
 
 ## Photo Samples ##
 
