@@ -46,16 +46,7 @@ module.exports = function(app){
         })
     });
 
-    // router.post("api/workouts/range", function (req, res) {
-    //     db.Workout.create({})
-    //     .then(data => {
-    //         res.json(data)
-    //     })
-    //     .catch(err => {
-    //         res.json(err)
-    //     })
-    // });
-
+    
 }
 
-// module.exports = router;
+
